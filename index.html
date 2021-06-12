@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Start Head -->
+
+<head>
+  <!-- Extra Inforamtion -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Css Link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FontAwesome Icon Link -->
+  <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css">
+
+  <!-- BootStarp Css Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+  <!-- Start Title -->
+  <title>Document</title>
+
+</head>
+
+<!-- Start Body -->
+
+<body>
+  <!-- Start Navbar -->
+  <nav>
+    <input type="checkbox" id="check">
+
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">ECommerce</label>
+
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="shop.html">shop</a></li>
+      <li><a href="service.html">service</a></li>
+      <li><a href="/">Today Deals</a></li>
+      <li><a href="about.html">about us</a></li>
+      <li><a href="contact.html">contact us</a></li>
+    </ul>
+
+  </nav>
+<br>
+  <!-- Start Search bar -->
+  <div class="search">
+    <div class="search-bar">
+      <form action="">
+        <input class="active" type="search" placeholder="What do you need ?">
+        <button type="search"><i class="fas fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+
+  <!--  Start Slider -->
+  <div id="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://source.unsplash.com/1600x500/?mountain" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1600x500/?programming" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1600x500/?c#" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Start Extra Card Information -->
+  <div class="extra-card">
+    <div class="div-one" id="card-info-one">
+
+      <h3 class="head-fashion">Fashion</h3>
+      <p class="fashion-pera">Lorem, ipsum dolor sit amet consectetur. </p>
+      <button class="fashion-btn">Shop Now</button>
+      <img src="Images/Fashion.png" alt="" class="fashion">
+
+    </div>
+    <div class="div-one" id="card-info-two">
+      <h3 class="head-electronic">Electronics</h3>
+      <p class="electronic-pera">Lorem, ipsum dolor sit amet consectetur. </p>
+      <button class="electronic-btn">Shop Now</button>
+      <img src="Images/Electronics.png" alt="" class="electronic">
+
+    </div>
+    <div class="div-one" id="card-info-three">
+      <h3 class="head-furniture">Furniture</h3>
+      <p class="furniture-pera">Lorem, ipsum dolor sit amet consectetur. </p>
+      <button class="furniture-btn">Shop Now</button>
+      <img src="Images/Furniture.png" alt="" class="furniture">
+    </div>
+
+  </div>
+
+  <!-- Start Product Card -->
+  <div class="product-card">
+
+    <div class="container-fluid">
+
+      <h1 class="h3 text-primary">Products</h1>
+
+      <div class="row d-flex flex-row justify-content-around">
+
+        <div class="card" style="width: 15rem;">
+          <img class="card-img-top" src="Images/Card-Images/laptop.png" alt="Card image cap">
+          <div class="card-body">
+            <small>Dell</small>
+            <br>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur..</p>
+            <br>
+            <small class="rating-small">
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star-half-alt rating"> </i>
+              &nbsp; &nbsp; 4.5 (20)
+            </small>
+            <h4>980$ <span class="h6"><del>1000$</del></span></h3>
+              <small> 32 Available In Stock </small>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Add To Cart</button>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 15rem;">
+          <img class="card-img-top" src="Images/Card-Images/Smart Watch.png" alt="Card image cap">
+          <div class="card-body">
+            <small>Smart Watch</small>
+            <br>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur..</p>
+            <br>
+            <small class="rating-small">
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="far fa-star rating"> </i>
+              &nbsp; &nbsp; 4.5 (20)
+            </small>
+            <h4>170$ <span class="h6"><del>200$</del></span></h3>
+              <small> 20 Available In Stock </small>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Add To Cart</button>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 15rem;">
+          <img class="card-img-top" src="Images/Card-Images/HeadPhone.png" alt="Card image cap">
+          <div class="card-body">
+            <small>HeadPhone</small>
+            <br>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur..</p>
+            <br>
+            <small class="rating-small">
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star-half-alt rating"> </i>
+              <i class="far fa-star rating"> </i>
+              &nbsp; &nbsp; 4.5 (20)
+            </small>
+            <h4>18$ <span class="h6"><del>20$</del></span></h3>
+              <small> Last Product In Stock </small>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Add To Cart</button>
+              </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 15rem;">
+          <img class="card-img-top" src="Images/Card-Images/IPhone.png" alt="Card image cap">
+          <div class="card-body">
+            <small>IPhone 12 Pro</small>
+            <br>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur..</p>
+            <br>
+            <small class="rating-small">
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              <i class="fas fa-star rating"> </i>
+              &nbsp; &nbsp; 5.0 (400)
+            </small>
+            <h4>1584$ <span class="h6"><del>1598$</del></span></h3>
+              <small> 4 Available In Stock </small>
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Add To Cart</button>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Promotion Cards -->
+  <div class="promotion">
+    <h1 class="h3 text-primary">active promotions</h1>
+    <div class="promotion-cards">
+
+      <div class="box-1" id="box-ones">
+        <img src="images/Promo-images/promo-one.png" alt="">
+        <div class="promo-content">
+          <i class="fab fa-cotton-bureau"></i>
+          <p>up to 25% of on all <br> casual sweaters</p>
+          <button class="browse-btn">Browse Products</button>
+        </div>
+      </div>
+
+      <div class="box-2" id="box-ones">
+
+        <div class="promo-content-2">
+          <i class="fas fa-hat-cowboy-side"></i>
+          <p>up to 20% of on <br> beauty products</p>
+          <button class="browse-btn-2">Browse Products</button>
+        </div>
+
+        <img src="images/Promo-images/promo-two.png" alt="">
+
+      </div>
+
+      <div class="box-3" id="box-ones">
+
+        <img src="images/Promo-images/promo-three.jpg" alt="">
+
+        <div class="promo-content-3">
+          <i class="fas fa-bicycle"></i>
+          <p>exciting bike rides with <br> amazing equipment</p>
+          <button class="browse-btn-3">Browse Products</button>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Start Footer -->
+  <footer>
+
+    <div class="main-footer">
+      <div class="subscribe">
+        <p class="news-later">subscribe to <br> newslater</p>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+          <button class="footer-sub-btn" type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+      </div>
+
+      <div class="help-ecommerce">
+
+        <p class="help-head">get help</p>
+        <p class="help-chlid">order status</p>
+        <p class="help-chlid">shipping & delivery</p>
+        <p class="help-chlid">return</p>
+        <p class="help-chlid">payment option</p>
+        <p class="help-chlid">contact</p>
+
+      </div>
+
+      <div class="get-ecommerce">
+        <p class="get-head">about ecommerce</p>
+        <p class="get-child">news</p>
+        <p class="get-child">career</p>
+        <p class="get-child">investors</p>
+        <p class="get-child">purposer</p>
+        <p class="get-child">sustanability</p>
+      </div>
+    </div>
+
+    <hr>
+    
+    <div class="socail-copyright">
+      <a href="/">Facebook</a>
+      <a href="/">Instagram</a>
+      <a href="/">whatsapp</a>
+      <a href="/">twitter</a>
+
+      
+    </div>
+    <p class="reserved"> copyright &copy; 2021 ecommerce all right reserved</p>
+
+  </footer> 
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
